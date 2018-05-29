@@ -42,7 +42,7 @@ app.use('/api', (req, res, next) => {
     next();
 });
 
-app.use('/api/', apiRouter);
+app.use('/api/v1/', apiRouter);
 
 app.use((error, req, res, next) => {
     if (error instanceof ForbiddenError) {
@@ -52,4 +52,6 @@ app.use((error, req, res, next) => {
     }
 });
 
-app.listen(3000);
+const port = process.env.PORT || 3000;
+
+app.listen(port);

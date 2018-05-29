@@ -1,8 +1,8 @@
 {
   "db": {
-    "host": "127.0.0.1",
-    "name": "cwp32",
-    "user": "emitan",
-    "password": "emitan"
+    "host": "ec2-50-19-224-165.compute-1.amazonaws.com",
+    "name": "d2nr62v7uedcj8",
+    "user": "dutgeskcuenfjf",
+    "password": "9b7d1176c9edca7186606fa022f3f5189d55276e4eede7cb62dd8cbc4954a2fd"
   }
 }
